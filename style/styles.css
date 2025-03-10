@@ -77,3 +77,44 @@ nav a{
 .banner-image img{
     width: 100%;
 }
+/* header media query */
+@media screen and (max-width:576px){
+    nav {
+        max-width: 100%;
+        display: flex
+    ;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    nav h3 {
+        color: rgb(19, 19, 19);
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    nav ul {
+        display: flex
+    ;
+        gap: 30px;
+        list-style: none;
+        position: relative;
+        right: 1.4rem;
+    }
+    .banner-container h2 {
+        color: rgb(19, 19, 19);
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 75px;
+        padding: 1rem;
+    }
+    .banner-container p {
+        color: rgb(114, 114, 114);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 1em;
+        text-align: justify;
+    }
+}
