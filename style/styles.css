@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+.no{
+    display: none;
+}
 body{
     /* max-width: 1140px;
     border: 2px red solid;
     margin: 0 auto; */
     font-family: Work sans;
+}
+.color-Feature{
+    color: rgb(255, 144, 14);
 }
 header{
     background: rgba(255, 144, 14, 0.1);
@@ -43,7 +48,6 @@ font-weight: 700;
 nav a{
     text-decoration: none;
     color: rgb(66, 66, 66);
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
 }
@@ -73,9 +77,57 @@ nav a{
     max-width: 1140px;
     margin: 0 auto;
     
+    
 }
 .banner-image img{
     width: 100%;
+    padding-bottom:30px;
+}
+/* main */
+main{
+    max-width:1140px;
+    margin:0 auto;
+    /* border: black solid 1px; */
+    
+}
+/* list-of-features */
+.list-of-features{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top:10px;
+    bottom: 20px;
+}
+.list-of-features-img{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width:550px;
+    max-height: 570px;
+    padding:2em;
+    gap:5px;
+}
+.list-of-features-img img{
+    width: 100%;
+}
+.list-of-features-Article{
+    max-width: 550px;
+    max-height: 570px;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: justify;
+    
+}
+.list-of-features-Article p{
+    color: rgb(114, 114, 114);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 /* header media query */
 @media screen and (max-width:576px){
@@ -116,5 +168,24 @@ nav a{
         line-height: 26px;
         padding: 1em;
         text-align: justify;
+    }
+    /* List of feature */
+    .list-of-features {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .btn-section {
+        width: 120px;
+        height: 54px;
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
     }
 }
