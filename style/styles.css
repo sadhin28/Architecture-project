@@ -129,6 +129,77 @@ main{
     font-weight: 400;
     line-height: 26px;
 }
+/* Loving feature */
+.loving-featre{
+  display: flex;
+  justify-content: space-between;
+  max-width:1140px;
+  max-height: 800px;
+  margin: 0 auto;
+  /* border: 1px black solid; */
+}
+.loving-article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2em;
+    max-width:550px;
+    /* max-height:100%; */
+    /* border: 1px red solid; */
+}
+.loving-image{
+    padding: 2em;
+    max-width:550px;
+    /* max-height: 100%; */
+    /* border: 1px red solid; */
+}
+.loving-image img{
+    width: 100%;
+    height:100%;
+}
+.loving-card{
+    border-radius: 16px;
+    height: 130px;
+    max-width: 500px;
+    padding: 5px;
+    color: rgb(114, 114, 114);
+    background-color: rgba(181, 194, 193, 0.398);
+    align-content: center;
+    /* margin: 0 auto; */
+    text-align: justify;
+}
+/* sosme-facts */
+.sosme-facts-container{
+    max-width: 1140px;
+    max-height: 1000px;
+    margin: 0 auto;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+   
+}
+.some-facts{
+    text-align: left;
+    padding: 5px;
+    /* border: 2px rgb(241, 93, 93) solid; */
+    margin: 30px;
+}
+.some-facts-car-container{
+ display: flex;
+ justify-content: space-evenly;
+ position: relative;
+ 
+ bottom:20px;
+}
+.some-fats-ccadr{
+    width: 169px;
+height: 136.22px;
+background: rgb(255, 255, 255);
+border: rgba(240, 101, 101, 0.921) 3px solid;
+align-items: center;
+text-align: center;
+padding: 10px;
+}
 /* header media query */
 @media screen and (max-width:576px){
     nav {
@@ -187,5 +258,16 @@ main{
         font-size: 20px;
         font-weight: 600;
         border: none;
+    }
+    /* lovig fatures */
+    .loving-featre {
+        display: flex
+    ;
+        justify-content: space-between;
+        max-width: 1140px;
+        max-height: 950px;
+        margin: 0 auto;
+        /* border: 1px black solid; */
+        flex-direction: column;
     }
 }
