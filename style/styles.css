@@ -142,13 +142,13 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 2em;
+    padding: 20px;
     max-width:550px;
     /* max-height:100%; */
     /* border: 1px red solid; */
 }
 .loving-image{
-    padding: 2em;
+    padding: 20px;
     max-width:550px;
     /* max-height: 100%; */
     /* border: 1px red solid; */
@@ -171,11 +171,13 @@ main{
 /* sosme-facts */
 .sosme-facts-container{
     max-width: 1140px;
-    max-height: 1000px;
+    max-height: 100%;
     margin: 0 auto;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
    
 }
 .some-facts{
@@ -269,5 +271,19 @@ padding: 10px;
         margin: 0 auto;
         /* border: 1px black solid; */
         flex-direction: column;
+    }
+    .sosme-facts-container {
+        max-width: 1140px;
+        max-height: 100%;
+        margin: 0 auto;
+        /* border: black 1px solid; */
+        display: flex
+    ;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-evenly;
+        position: relative;
+        top: 520px;
+        padding: 7px;
     }
 }
