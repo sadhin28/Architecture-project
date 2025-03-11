@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-form</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <style>
+    .login-btn-section{
+        top: 30px;
+        position: relative;    
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+ }
+       .a-page{
+        display: flex;
+        justify-content:space-between;
+        gap: 0px;
+       }
+       .header-loging-and-sign-up{
+       
+        display: flex;
+        position: relative;
+        gap: 25px;
+       
+        justify-content:space-between;
+        align-items: center;
+       }
+     .box{
+        width: 800px;
+        height: 500px;
+        border: solid black;
+        border-radius: 16px;
+        position: relative;
+        bottom: 12px;
+        
+        /* background-color: rgba(194, 196, 195, 0.152); */
+        flex-wrap: wrap;
+        border: none;
+     }
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        top: 10%;
+        align-items: center;
+        
+       
+    }
+    main{
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      
+        
+        /* padding: 35px; */
+        /* flex-direction: row-reverse; */
+       }
+       .a-page{
+        display: flex;
+        gap: 30px;
+        
+    }
+    
+    #email{
+        height: 10px;
+        width: 300px;
+        padding: 20px;
+        /* border-radius: 18px; */
+        margin-bottom: 20px;
+      
+    }
+    #password{
+        height: 10px;
+        width: 300px;
+        padding: 20px;
+        /* border-radius: 18px; */
+        margin-bottom: 20px;
+    }
+   
+  form #email:hover{
+    background-color: aqua;
+  }
+  form #password:hover{
+    background-color: aqua;
+  }
+  form #conform-password:hover{
+    background-color: aqua;
+  }
+  form h3{
+    font-size:30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+    @media screen and (max-width:576px){
+        main {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+    }
+    
+    </style>
+</head>
+<body class="color-tt">
+   <header>
+    <nav>
+        <h3>Architects</h3>
+        <ul>
+            <li><a href="indx.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav
+   </header>
+   <main>
+    <section class=" box login-page">
+       <form>
+        <h3>Log-in</h3>
+           
+            <input placeholder="Email address" type="email" name="" id="email">
+            <input placeholder="Password" type="password" name="" id="password">
+           
+            <button class="login-btn-section">Login</button>
+           
+       </form> 
+    </section>
+   </main>
+</body>
+</html>
