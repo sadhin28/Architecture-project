@@ -228,7 +228,7 @@ footer{
     text-align: center;
     background: rgba(255, 144, 14, 0.1);
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     
 }
 .Our-Sponspors-company img{
@@ -347,7 +347,8 @@ footer{
         padding: 15px;
         margin: 5px;
         position: relative;
-        top: 540px;}
+        top: 540px;
+    }
     }
     @media screen and (min-width:576px)and (max-width:992px){
          
