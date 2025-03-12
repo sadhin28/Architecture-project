@@ -224,9 +224,13 @@ padding: 10px;
 footer{
     text-align: center;
     background: rgba(255, 144, 14, 0.1);
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     
+}
+.Our-Sponspors-company img{
+        
+    filter: grayscale(100%);
 }
 /* header media query */
 @media screen and (max-width:576px){
@@ -329,8 +333,7 @@ footer{
     .Our-Sponspors-company {
         /* display: flex
     ; */
-        display: grid
-    ;
+        display: grid;
         justify-content: space-around;
         gap: 40px;
     }
