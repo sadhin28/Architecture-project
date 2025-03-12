@@ -163,7 +163,7 @@ main{
     max-width: 500px;
     padding: 5px;
     color: rgb(114, 114, 114);
-    background-color: rgba(181, 194, 193, 0.398);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
     align-content: center;
     /* margin: 0 auto; */
     text-align: justify;
