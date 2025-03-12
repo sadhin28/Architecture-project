@@ -201,6 +201,7 @@ border: rgba(240, 101, 101, 0.921) 3px solid;
 align-items: center;
 text-align: center;
 padding: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
 }
 /* Our-Sponspors */
 .Our-Sponspors{
@@ -222,6 +223,7 @@ padding: 10px;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
+    
     
 }
 footer{
