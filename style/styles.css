@@ -12,7 +12,8 @@ body{
     color: rgb(255, 144, 14);
 }
 .color-tt{
-    background: rgba(255, 144, 14, 0.1);
+    background-image: url(/images/cool-background\ \(1\).png);
+
 }
  /* Button section */
  .btn-section{
@@ -47,9 +48,9 @@ font-weight: 700;
 }
 nav a{
     text-decoration: none;
-    color: rgb(66, 66, 66);
-    font-size: 18px;
-    font-weight: 500;
+    color: rgb(2, 0, 0);
+    font-size: 20px;
+    font-weight: 900;
 }
 /* banner-containerb */
 .banner-container{
