@@ -217,8 +217,11 @@ padding: 10px;
     padding: 50px;
 }
 .Our-Sponspors-company{
-    display: flex;
+    display:flex;
+    gap: 40px;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
 }
 footer{
@@ -232,6 +235,7 @@ footer{
         
     filter: grayscale(100%);
 }
+
 /* header media query */
 @media screen and (max-width:576px){
     nav {
@@ -345,4 +349,83 @@ footer{
         position: relative;
         top: 540px;}
     }
+    @media screen and (min-width:576px)and (max-width:992px){
+         
+        .Our-Sponspors-company {
+            display: flex
+        ;
+            gap: 40px;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .loving-featre {
+            display: flex
+        ;
+            justify-content: space-between;
+            max-width: 1140px;
+            max-height: 800px;
+            margin: 0 auto;
+            /* border: 1px black solid; */
+            flex-direction: column;
+        }
+        .loving-image {
+            padding: 20px;
+            max-width: 550px;
+            /* max-height: 100%; */
+            /* border: 1px red solid; */
+            margin: 0 auto;
+        }
+        .loving-article {
+            display: flex
+        ;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 550px;
+            /* max-height: 100%; */
+            margin: 0 auto;
+            /* border: 1px red solid; */
+        }
+        .sosme-facts-container {
+            max-width: 1140px;
+            max-height: 100%;
+            margin: 0 auto;
+            /* border: black 1px solid; */
+            display: flex
+        ;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: relative;
+            top: 800px;
+            justify-content: space-evenly;
+        }
+       
+        .Our-Sponspors {
+            position: relative;
+            /* bottom: 50px; */
+            gap: 10px;
+            max-width: 1140px;
+            display: flex
+        ;
+            flex-direction: column;
+            justify-items: center;
+            text-align: center;
+            /* border: 2px red solid; */
+            padding: 50px;
+            position: relative;
+            top: 800px;
+        
+       
+    }
+    footer {
+        text-align: center;
+        background: rgba(255, 144, 14, 0.1);
+        padding: 10px;
+        margin: 5px;
+        position: relative;
+        top: 800px;
+    }
+}
      
